@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Conduit.Opus</id>
+        <version>1.0.4</version>
+        <description>An easy-to-use library for encoding and decoding 16-bit audio using the Opus Audio Codec. NOTE: This library is a wrapper around the official libopus, and does not contain code for parsing .opus container files.</description>
+        <authors>mrphil2105, Daniel Wein</authors>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/DanielJWein/Conduit.Opus</projectUrl>
+        <copyright>Copyright © 2019 mrphil2105, 2024 Daniel Wein</copyright>
+        <tags>Opus, Audio, Codec, Encoder, Decoder, VoIP</tags>
+        <dependencies>
+            <dependency id="Conduit.Opus.opus.win-x64" version="1.5.2" />
+        </dependencies>
+
+        <releaseNotes>Forked from mrphil2105's OpusDotNet, removed obsolete code.</releaseNotes>
+    </metadata>
+    <files>
+        <file src="..\bin\Release\netstandard2.0\*.*" target="lib\netstandard2.0" />
+
+        <file src="Conduit.Opus.targets" target="build" />
+    </files>
+</package>
