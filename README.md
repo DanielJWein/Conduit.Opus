@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > This project was forked from [OpusDotNet](https://github.com/mrphil2105/OpusDotNet), 
-and all of the code provided was from [Philip Mørch](https://github.com/mrphil21050). The 
+and all of the code provided was from [Philip MÃ¸rch](https://github.com/mrphil2105). The 
 project was forked to update the version of opus to 1.5.2 from 1.3.1.
 
 This release removes all deprecated code.
